@@ -17,7 +17,7 @@ object CodecFunctions {
   def encodeForCSS(input: String): String = css encode input
   def encodeForHTML(input: String): String = html encode input
   def encodeForHTMLAttribute(input: String): String = htmlAttribute encode input
-  def encodeForJavaScript(input: String): String = javascript encode input
+  def encodeForJavascript(input: String): String = javascript encode input
   def encodeForXML(input: String): String = xml encode input
   def encodeForXMLAttribute(input: String): String = xmlAttribute encode input
   def encodeForXPath(input: String): String = xpath encode input
@@ -29,7 +29,7 @@ object CodecFunctions {
   def decodeForCSS(input: String): String = css decode input
   def decodeForHTML(input: String): String = html decode input
   def decodeForHTMLAttribute(input: String): String = htmlAttribute decode input
-  def decodeForJavaScript(input: String): String = javascript decode input
+  def decodeForJavascript(input: String): String = javascript decode input
   def decodeForXML(input: String): String = xml decode input
   def decodeForXMLAttribute(input: String): String = xmlAttribute decode input
   def decodeForXPath(input: String): String = xpath decode input
